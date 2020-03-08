@@ -1,3 +1,49 @@
 {
-    "instructors":[]
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Rafael",
+      "birth": 768614400000,
+      "gender": "M",
+      "services": "academia, natação",
+      "created_at": 1583642030384
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Rafael B",
+      "birth": 468115200000,
+      "gender": "M",
+      "services": "natacao, academia, crossfit",
+      "created_at": 1583642152877
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Luciane",
+      "birth": -182649600000,
+      "gender": "F",
+      "services": "dona de casa",
+      "created_at": 1583643311486
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Rafael NB",
+      "birth": 468115200000,
+      "gender": "M",
+      "services": "natacao, academia, crossfit",
+      "created_at": 1583643659983
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Luciane",
+      "birth": -182649600000,
+      "gender": "M",
+      "services": "dona de casa",
+      "created_at": 1583644071463
+    }
+  ]
 }
