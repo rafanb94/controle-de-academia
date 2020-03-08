@@ -1,5 +1,31 @@
 {
   "instructors": [
-
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Rafael",
+      "birth": 468115200000,
+      "gender": "M",
+      "services": "academia, natação",
+      "created_at": 1583646396925
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Mayk",
+      "birth": 470707200000,
+      "gender": "M",
+      "services": "natacao, academia, crossfit",
+      "created_at": 1583646451743
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Mayk",
+      "birth": 470620800000,
+      "gender": "M",
+      "services": "academia, natação",
+      "created_at": 1583646510121
+    }
   ]
 }
