@@ -15,7 +15,7 @@ exports.show = function(request, response) {
     ...foundInstructor,
     age: age(foundInstructor.birth),
     services: foundInstructor.services.split(","),
-    created_at: ""
+    created_at: new Intl.DateTimeFormat('en-GB').format(foundInstructor.created_at)
   };
   return response.render("instructors/show", { instructor });
 };
