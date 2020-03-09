@@ -27,5 +27,50 @@
       "services": "dona de casa",
       "created_at": 1583707704675
     }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Miguel",
+      "email": "rafael_nbc@hotmail.com",
+      "birth": -298339200000,
+      "blood": "B-",
+      "weidth": "80",
+      "heigth": "169"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Rafael",
+      "email": "rafael_nbc@hotmail.com",
+      "birth": 768614400000,
+      "gender": "M",
+      "blood": "A-",
+      "weidth": "63",
+      "heigth": "163"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Rafael",
+      "email": "rafael_nbc@hotmail.com",
+      "birth": 768614400000,
+      "gender": "M",
+      "blood": "A-",
+      "weidth": "63",
+      "heigth": "163"
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://source.unsplash.com/random",
+      "name": "Luciane",
+      "email": "luciane_brunner@hotmail.com",
+      "birth": -182649600000,
+      "gender": "F",
+      "blood": "A+",
+      "weidth": "70",
+      "heigth": "160"
+    }
   ]
 }

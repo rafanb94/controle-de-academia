@@ -1,6 +1,6 @@
 const fs = require("fs");
-const data = require("./data.json");
-const { age, date } = require ("./utils")
+const data = require("../data.json");
+const { age, date } = require ("../utils")
 
 exports.index = function(request, response) {
   return response.render("instructors/index", {instructors: data.instructors});
@@ -68,7 +68,7 @@ exports.edit = function(request, response) {
     if (!foundInstructor) return response.send("não encontrado");
     const instructor = {
       ...foundInstructor,
-      birth: date(foundInstructor.birth)
+      birth: date(foundInstructor.birth).iso
     }
     return response.render('instructors/edit', {instructor})
 }

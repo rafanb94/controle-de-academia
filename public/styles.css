@@ -118,7 +118,7 @@ header {
 }
 
 /*== Form ==*/
-input {
+input, select {
     outline: none;
     width: 100%;
     border: none;
@@ -199,7 +199,7 @@ a.button {
     box-shadow: 3px 1px 6px -4px black;
 }
 
-.table-container tbody tr td:last-child a {
+.table-container tbody tr td:last-child a, .button-novo {
     background-color: var(--primary-color);
     padding: 8px 16px;
     text-decoration: none;
@@ -211,4 +211,9 @@ a.button {
 
 .table-container thead tr th:last-child, td:last-child {
     text-align: center;
+}
+
+.button-novo {
+    margin: 5px 16px;
+    display: inline-block;
 }
